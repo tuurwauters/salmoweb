@@ -235,4 +235,30 @@ footer {
       padding: 1rem;
       text-align: center;
     }
+
+    .container {
+        position: relative;
+        left: 10%;
+        margin: 5%;
+        width: 70%;
+        height: 450px;
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+        opacity: 80%;
+    }
+    
+    .container img {
+        width: 20%;
+        height: 100%;
+        object-fit: cover;
+        border-radius:10px;
+        border: 2px solid rgba(255, 255, 255, 0.684);
+        transition: all ease-in-out 0.5s;
+        opacity: 80%;
+    }
+    
+    .container img:hover {
+        width: 80%;
+}
 }
