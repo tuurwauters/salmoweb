@@ -170,7 +170,7 @@ footer {
 
 .EnkeleFoto{
     margin: 0 auto;
-    width: 80%;
+    width: 50%;
 }
 
 .EnkeleFoto img{
@@ -182,6 +182,10 @@ footer {
 
 
 @media (max-width: 768px) {
+    .EnkeleFoto{
+        width: 90%;
+    }
+
     .hamburger {
       display: block;
       
